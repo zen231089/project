@@ -35,7 +35,7 @@ var galleryTop2 = new Swiper2('.gallery-top2', {
 
 var countDownDate = new Date(reception)
 var x = setInterval(function () {
-  var now = new Date().getTime();
+  var now = new Date(2020-10-24 10.59.00).getTime();
   var distance = countDownDate - now;
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
